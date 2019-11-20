@@ -59,6 +59,6 @@ app.get('/about', (req, res) => {
 // });
 
 
-app.listen(3000, () => {
+app.listen(puerto, () => {
     console.log(`Escuchando aplicaciones en el puerto ${puerto}`);
 });
